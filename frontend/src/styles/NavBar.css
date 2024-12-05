@@ -1,0 +1,28 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+img {
+  height: 50px;
+  width: 300px;
+}
+
+.profile-section {
+  display: flex;
+  align-items: center;
+}
+
+.about {
+  margin-left: 10px;
+  text-decoration: none;
+  color: #007bff;
+  font-weight: bold;
+  margin-right: 3rem;
+}
+
+.about:hover {
+  text-decoration: underline;
+}

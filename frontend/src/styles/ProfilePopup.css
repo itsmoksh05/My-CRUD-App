@@ -1,0 +1,43 @@
+.profile-section {
+  position: relative;
+}
+
+.profile-icon {
+  width: 40px;
+  height: 40px;
+  cursor: pointer;
+  border-radius: 50%;
+}
+
+.profile-popup {
+  position: absolute;
+  top: 50px;
+  right: 0;
+  background-color: #fff;
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.profile-popup p {
+  margin: 0;
+  font-size: 1.2rem;
+  color: #333;
+}
+
+.profile-popup button {
+  margin-top: 0.5rem;
+  padding: 0.5rem 1rem;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.profile-popup button:hover {
+  background-color: #0056b3;
+}

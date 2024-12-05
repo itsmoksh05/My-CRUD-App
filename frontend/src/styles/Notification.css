@@ -1,0 +1,95 @@
+.notification {
+  position: fixed;
+  top: 20px;
+  right: 20px;
+  padding: 15px 20px;
+  border-radius: 5px;
+  font-size: 14px;
+  color: #fff;
+  display: flex;
+  align-items: center;
+  z-index: 1000;
+  transition: opacity 0.3s;
+}
+
+.notification-info {
+  background-color: #2196f3;
+}
+
+.notification-success {
+  position: relative;
+  bottom: 20px;
+  right: 20px;
+  padding: 16px;
+  background-color: rgba(6, 160, 44, 0.692);
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  color: white;
+  font-size: 16px;
+  font-weight: bold;
+  z-index: 1000;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.notification-error {
+  background-color: #f44336;
+}
+
+.notification-warning {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 16px;
+  background-color: rgba(238, 166, 11, 0.897);
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  width: 300px;
+  color: rgb(255, 255, 255);
+  font-size: 16px;
+  font-weight: bold;
+  z-index: 1000;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.notification-message {
+  margin-right: 10px;
+}
+
+.close-btn {
+  position: absolute;
+  top: 5px;
+  right: 8px;
+  background: none !important;
+  border: none !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  font-size: 14px !important;
+  color: #ffffff !important;
+  cursor: pointer;
+  outline: none !important;
+  appearance: none !important;
+  box-shadow: none !important;
+}
+
+.close-btn:hover {
+  color: #333 !important;
+}
+
+
+
+.loading-line {
+  height: 4px;
+  background-color: #fafafa;
+  transition: width 0.1s linear;
+  align-self: flex-start;
+  border-radius: 0 0 5px 5px;
+  margin-top: 10px;
+  width: 100%;
+}

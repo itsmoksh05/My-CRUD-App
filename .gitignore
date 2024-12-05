@@ -1,0 +1,49 @@
+# Node.js dependencies
+/node_modules/
+
+# Build directories
+/build/
+/dist/
+
+/.vscode
+
+# Dependency directories for Yarn (if used)
+/.pnp
+.pnp.js
+
+# Local environment variables
+.env
+
+# Log files
+npm-debug.log
+yarn-debug.log
+yarn-error.log
+
+# IntelliJ IDEA project files
+.idea/
+
+# Eclipse project files
+.project
+.classpath
+.settings/
+
+# Java class files
+*.class
+
+# Java project artifacts
+*.jar
+*.war
+*.ear
+
+# Spring Boot specific
+/target/
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# IDE files
+*.iml
+
+# User-specific settings
+*.log

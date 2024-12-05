@@ -1,0 +1,70 @@
+.about-page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  font-family: Arial, sans-serif;
+  color: #333;
+  background-image: url(../assets/Main_BG.jpg);
+  background-size: cover;
+}
+
+.about-header {
+  background-color: #00336691;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+.about-header h1 {
+  margin: 0;
+  font-size: 2.5rem;
+}
+
+.about-header p {
+  font-size: 1.2rem;
+  margin: 5px 0 0;
+}
+
+.about-content {
+  flex: 1;
+  padding: 40px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.about-section {
+  margin-bottom: 30px;
+}
+
+.about-section h2 {
+  color: #00509e;
+  font-size: 1.8rem;
+  margin-bottom: 10px;
+}
+
+.about-section p,
+.about-section ul {
+  font-size: 1rem;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.about-section ul {
+  padding-left: 20px;
+  list-style-type: disc;
+}
+
+.about-section li {
+  margin-bottom: 8px;
+}
+
+.about-footer {
+  background-color: #003366;
+  color: white;
+  text-align: center;
+  padding: 15px 0;
+}
+
+.about-footer p {
+  margin: 0;
+}

@@ -1,0 +1,46 @@
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #f8f9fa;
+}
+
+.header-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.header-buttons button {
+  margin-right: 10px;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  cursor: pointer;
+}
+
+.header-buttons button:hover {
+  background-color: #0056b3;
+}
+
+.about-link {
+  margin-right: 10px;
+  text-decoration: none;
+  color: #007bff;
+}
+
+.about-link:hover {
+  text-decoration: underline;
+}
+
+.profile-section {
+  display: flex;
+  align-items: center;
+}
+
+.profile-section img {
+  margin-right: 10px;
+}

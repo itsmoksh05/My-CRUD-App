@@ -1,0 +1,80 @@
+.landing-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-image: url(../assets/BG.jpg);
+  background-size: cover;
+  text-align: center;
+}
+
+.outer-box {
+  background-color: #03729ec5;
+  padding: 2rem;
+  border: #044488;
+  border-style: double;
+  border-radius: 8px;
+  box-shadow: 0 40px 80px rgba(0, 0, 0, 0.2);
+  color: white;
+  height: 50vh;
+  width: 100vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  padding: 2rem;
+}
+
+.landing-container h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+  width: 50vh;
+}
+
+.landing-container p {
+  margin-bottom: 5rem;
+  font-size: 1.5rem;
+}
+
+.btn {
+  padding: 0.75rem 1.5rem;
+  background-color: #fff;
+  color: #007bff;
+  border: 2px solid white;
+  border-radius: 4px;
+  text-decoration: none;
+  font-size: 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  margin: 1.5rem;
+}
+
+.landing-button:hover {
+  background-color: #0056b3;
+  color: white;
+}
+
+.outer-box strong svg {
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+svg text {
+  fill: none;
+  font-size: 6rem;
+  stroke: #f8be40;
+  stroke-width: 2px;
+  stroke-dasharray: 500;
+  stroke-dashoffset: 500;
+  animation: strokeAnimation 3s linear infinite;
+}
+
+@keyframes strokeAnimation {
+  to {
+    stroke-dashoffset: 0;
+  }
+}
